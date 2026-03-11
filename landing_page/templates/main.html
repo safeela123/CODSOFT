@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% load static %}
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{%static 'css/style.css'%}">
+</head>
+<body>
+   <div class="main">
+
+    <section class="intro">
+      
+    <div class="text">
+   <span class="one">Hey </span>
+    <span class="two">stop scrolling</span>
+    <span class="three">study python </span>
+    <span class="four">Be a Pro</span>
+
+    <a href="">enroll now</a>
+
+    
+  <div class="benefit">
+    
+    <ul>
+        <h2>What we provide</h2>
+        <li>Basic python</li>
+        <li>Web development with django</li>
+        <li>Build real projects</li>
+        <li>Certificate of completion</li>
+        <li>Placement assistance</li>
+         <h2 style="color:orange; background-color:black; width:100px; text-align:center;";>only 999</h2>
+    </ul>
+    </div>
+    
+     </div>
+
+       <div class="image">
+    <img src="{% static 'images/women_image.jpg' %}" alt="" height="500px" width="400px">
+    </div>
+</section>
+
+
+<section class="contact">
+    <p style="text-align:center;font-size:25px;"> contact us</p>
+    <input type="text" placeholder="name"><br>
+    <input type="email" placeholder="email"><br>
+    <input type="submit" value="submit"><br>
+</section>
+
+
+    </div>
+    
+</body>
+</html>
